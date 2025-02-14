@@ -37,3 +37,10 @@ brew install php composer
 
 # dotfiles
 yadm clone --no-bootstrap https://github.com/katmfoo/dotfiles.git
+
+# make ~/dev folder
+
+# setup prettier
+# run `npm install --save-dev prettier @prettier/plugin-php` inside `~/dev`
+# run `npm install -g @fsouza/prettierd`
+
