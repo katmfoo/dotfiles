@@ -4,7 +4,8 @@
 # source: https://github.com/katmfoo/dotfiles
 
 # install homebrew
-# install iterm2, default terminal doesn't support truecolor
+# install iterm2 (default terminal doesn't support truecolor), configure it
+#   to pull settings from .config/iterm2
 # install docker
 # install jetbrains mono
 # install neovide
