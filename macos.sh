@@ -5,7 +5,7 @@
 
 # install homebrew
 # install iterm2 (default terminal doesn't support truecolor), configure it
-#   to pull settings from .config/iterm2
+#   to pull settings from .config/iterm2 and save edits automatically
 # install docker
 # install jetbrains mono
 # install neovide
