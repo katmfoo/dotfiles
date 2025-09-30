@@ -44,11 +44,11 @@ chsh -s /opt/homebrew/bin/bash
 # dotfiles (git required for something in .bashrc, gnupg/less required for
 # yadm bootstrap script)
 brew install git gnupg less yadm
-yadm clone --no-bootstrap https://github.com/katmfoo/dotfiles.git
+yadm clone --no-bootstrap --recurse-submodules https://github.com/katmfoo/dotfiles.git
 yadm bootstrap
 
 # tool stuffs
-brew install neovim nnn tmux ripgrep http-prompt git-delta neofetch
+brew install neovim nnn tmux ripgrep http-prompt git-delta neofetch sops
 
 # language stuffs
 brew install nvm
@@ -61,9 +61,6 @@ brew install php composer
 # setup prettier
 # run `npm install --save-dev prettier @prettier/plugin-php` inside `~/dev`
 # run `npm install -g @fsouza/prettierd`
-
-                      # fitdegree
-                      brew install sops
 
 
 
@@ -83,7 +80,6 @@ brew install php composer
 
 # KAT TODO: add ~/.config/karabiner/karabiner.json to dotfiles
 # KAT TODO: does everything with caps key feel okay? if not, maybe i need to copy the
-# KAT TODO: get rid of stuff from top right bar?
 # KAT TODO: do final organization of dock
 # KAT TODO: install jetbrains mono
 # number settings from old mac as well?
