@@ -58,6 +58,9 @@ brew install php composer
 
 # make ~/dev folder
 
+# setup mailbox
+cd ~/dev && git clone git@github.com:katmfoo/mailbox.git
+
 # setup prettier
 # run `npm install --save-dev prettier @prettier/plugin-php` inside `~/dev`
 # run `npm install -g @fsouza/prettierd`
