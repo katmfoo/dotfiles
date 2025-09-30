@@ -61,31 +61,3 @@ brew install php composer
 # setup prettier
 # run `npm install --save-dev prettier @prettier/plugin-php` inside `~/dev`
 # run `npm install -g @fsouza/prettierd`
-
-
-
-
-
-
-
-
-
-
-
-                           # configure iterm2 to pull settings from .config/iterm2 and save edits
-                           # automatically
-
-
-
-
-# KAT TODO: add ~/.config/karabiner/karabiner.json to dotfiles
-# KAT TODO: does everything with caps key feel okay? if not, maybe i need to copy the
-# KAT TODO: do final organization of dock
-# KAT TODO: install jetbrains mono
-# number settings from old mac as well?
-
-
-
-
-# setup mailbox repo and open in obsidian
-
