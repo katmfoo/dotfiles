@@ -7,8 +7,9 @@
 # set keyboard "key repeat rate" to fastest
 # set keyboard "delay until repeat" to shortest
 # set finder sidebar to only desired directories
-# set dock to left side of screen and to auto hide
+# set dock to auto hide
 # turn off "show suggested and recent apps in dock"
+# turn off auto caps and spell check
 
 # install google chrome, set as default web browser
 # install 1password
@@ -37,15 +38,17 @@
 
 # bash
 brew install bash
-brew install bash-completion@2 # is this necessary?
-# configure bash as default shell
+echo "/opt/homebrew/bin/bash" | sudo tee -a /etc/shells
+chsh -s /opt/homebrew/bin/bash
 
-# core stuffs
-brew install git curl ripgrep jq zip unzip httpie htop trash
+# dotfiles (git required for something in .bashrc, gnupg/less required for
+# yadm bootstrap script)
+brew install git gnupg less yadm
+yadm clone --no-bootstrap https://github.com/katmfoo/dotfiles.git
+yadm bootstrap
 
 # tool stuffs
-brew install yadm neovim nnn tmux http-prompt mysql-client redis \
-    sops git-delta neofetch
+brew install neovim nnn tmux ripgrep http-prompt git-delta neofetch
 
 # language stuffs
 brew install nvm
@@ -53,24 +56,27 @@ nvm install 20
 nvm alias default 20
 brew install php composer
 
-# dotfiles
-yadm clone --no-bootstrap https://github.com/katmfoo/dotfiles.git
-
 # make ~/dev folder
-
-# configure iterm2 to pull settings from .config/iterm2 and save edits
-# automatically
 
 # setup prettier
 # run `npm install --save-dev prettier @prettier/plugin-php` inside `~/dev`
 # run `npm install -g @fsouza/prettierd`
 
+                      # fitdegree
+                      brew install sops
 
 
 
 
 
 
+
+
+
+
+
+                           # configure iterm2 to pull settings from .config/iterm2 and save edits
+                           # automatically
 
 
 
