@@ -34,6 +34,9 @@
 
 # setup dock as desired
 
+# iterm settings
+# enable clipboard access
+
 # install homebrew
 
 # bash
