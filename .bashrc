@@ -1,5 +1,5 @@
 # .bashrc, config for bash
-# source: https://github.com/katmfoo/dotfiles
+# source: https://github.com/catmfoo/dotfiles
 
 # ----- env vars ----- #
 

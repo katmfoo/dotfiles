@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # .config/yadm/bootstrap, bootstraps dotfiles
-# source: https://github.com/katmfoo/dotfiles
+# source: https://github.com/catmfoo/dotfiles
 
 # decrypt private keys
 echo "Decrypting private keys with yadm"
@@ -17,4 +17,4 @@ lesskey ~/.lesskey
 
 # set dotfiles repo remote to ssh
 echo "Setting dotfiles repo remote to ssh"
-yadm remote set-url origin git@github.com:katmfoo/dotfiles.git
+yadm remote set-url origin git@github.com:catmfoo/dotfiles.git

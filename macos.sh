@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # macos.sh, loose notes for macos system install
-# source: https://github.com/katmfoo/dotfiles
+# source: https://github.com/catmfoo/dotfiles
 
 # set trackpad "tracking speed" to fastest
 # set keyboard "key repeat rate" to fastest
@@ -47,7 +47,7 @@ chsh -s /opt/homebrew/bin/bash
 # dotfiles (git required for something in .bashrc, gnupg/less required for
 # yadm bootstrap script)
 brew install git gnupg less yadm
-yadm clone --no-bootstrap --recurse-submodules https://github.com/katmfoo/dotfiles.git
+yadm clone --no-bootstrap --recurse-submodules https://github.com/catmfoo/dotfiles.git
 yadm bootstrap
 
 # tool stuffs
@@ -62,7 +62,7 @@ brew install php composer
 # make ~/dev folder
 
 # setup mailbox
-cd ~/dev && git clone git@github.com:katmfoo/mailbox.git
+cd ~/dev && git clone git@github.com:catmfoo/mailbox.git
 
 # setup prettier
 # run `npm install --save-dev prettier @prettier/plugin-php` inside `~/dev`

@@ -1,5 +1,5 @@
 # .bash_profile
-# source: https://github.com/katmfoo/dotfiles
+# source: https://github.com/catmfoo/dotfiles
 
 # set path, manpath, etc. for homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
