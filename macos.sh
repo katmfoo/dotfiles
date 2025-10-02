@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # macos.sh, loose notes for macos system install
-# source: https://github.com/katmfoo/dotfiles
+# source: https://github.com/catmfoo/dotfiles
 
 # set trackpad "tracking speed" to fastest
 # set keyboard "key repeat rate" to fastest
@@ -34,6 +34,9 @@
 
 # setup dock as desired
 
+# iterm settings
+# enable clipboard access
+
 # install homebrew
 
 # bash
@@ -44,7 +47,7 @@ chsh -s /opt/homebrew/bin/bash
 # dotfiles (git required for something in .bashrc, gnupg/less required for
 # yadm bootstrap script)
 brew install git gnupg less yadm
-yadm clone --no-bootstrap --recurse-submodules https://github.com/katmfoo/dotfiles.git
+yadm clone --no-bootstrap --recurse-submodules https://github.com/catmfoo/dotfiles.git
 yadm bootstrap
 
 # tool stuffs
@@ -58,34 +61,9 @@ brew install php composer
 
 # make ~/dev folder
 
+# setup mailbox
+cd ~/dev && git clone git@github.com:catmfoo/mailbox.git
+
 # setup prettier
 # run `npm install --save-dev prettier @prettier/plugin-php` inside `~/dev`
 # run `npm install -g @fsouza/prettierd`
-
-
-
-
-
-
-
-
-
-
-
-                           # configure iterm2 to pull settings from .config/iterm2 and save edits
-                           # automatically
-
-
-
-
-# KAT TODO: add ~/.config/karabiner/karabiner.json to dotfiles
-# KAT TODO: does everything with caps key feel okay? if not, maybe i need to copy the
-# KAT TODO: do final organization of dock
-# KAT TODO: install jetbrains mono
-# number settings from old mac as well?
-
-
-
-
-# setup mailbox repo and open in obsidian
-

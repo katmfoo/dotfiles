@@ -1,13 +1,13 @@
 [user]
-	email = katmfoo@gmail.com
-	name = katmfoo
+	email = catmfoo@gmail.com
+	name = catmfoo
 	signingkey = 41B21E5539E4ABF6
 [commit]
 	gpgsign = true
 [pull]
 	rebase = false
 [github]
-	user = katmfoo
+	user = catmfoo
 [core]
 	editor = nvim
 	pager = delta --diff-highlight --keep-plus-minus-markers
