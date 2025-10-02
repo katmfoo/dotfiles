@@ -1,7 +1,7 @@
 [user]
 	email = catmfoo@gmail.com
 	name = catmfoo
-	signingkey = 41B21E5539E4ABF6
+	signingkey = D9F039A03E5DB542
 [commit]
 	gpgsign = true
 [pull]
