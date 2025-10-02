@@ -1,5 +1,5 @@
 .ssh/id_ed25519
-.gnupg/gpg-private.key
+.gnupg/gpg-private.asc
 .env
 .aws/credentials
 intelephense/licence.txt
